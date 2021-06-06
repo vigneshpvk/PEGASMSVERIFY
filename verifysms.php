@@ -1,4 +1,5 @@
-    
+<html>
+    <body>
 <?php
     $dbhost = 'freedb.tech';
     $dbuser = 'freedbtech_FreeUser';
@@ -33,6 +34,8 @@
     echo json_encode($response,JSON_PRETTY_PRINT);
     }
     ?>
+    </body>
+</html>
 
 
 
